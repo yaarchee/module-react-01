@@ -1,0 +1,17 @@
+.statistics{
+    padding-top: 50px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 1px 0px 26px 0px rgba(0,0,0,0.75);
+    display: flex;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}

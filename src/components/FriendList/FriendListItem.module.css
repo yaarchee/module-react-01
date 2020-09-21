@@ -1,0 +1,35 @@
+.item{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 1px 0px 26px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+}
+.avatar{
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+
+.status{
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+}
+.isOnline{
+    composes: status;
+    background-color: green;
+}
+.isOffline{
+    composes: status;
+    background-color: red;
+
+}
+
+

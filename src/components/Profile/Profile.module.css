@@ -1,0 +1,22 @@
+.profile{
+   width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  box-shadow: 1px 0px 26px 0px rgba(0,0,0,0.75);
+
+}
+
+
+p, ul{
+    margin: 0;
+    padding: 0;
+}
+p{
+    padding-bottom: 10px;
+}
+
+
